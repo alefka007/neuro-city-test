@@ -1,0 +1,21 @@
+.box-container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 7px gray;
+    margin: 20px;
+}
+
+.box-inner {
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 7px gray;
+}

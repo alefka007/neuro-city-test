@@ -1,0 +1,26 @@
+.component-1 {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+} 
+
+.slider-container {
+    display: inline-flex;
+    transform: translateX(0);
+    transition: all .5s ease-in-out;
+    touch-action: none;
+}
+
+.slide {
+    max-height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.slide img {
+    max-width: 80%;
+}

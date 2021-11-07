@@ -1,0 +1,25 @@
+{
+  "name": "training-js",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "description": "task neuro-city",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build",
+    "server": "nodemon src/component/component-5/server.js"
+  },
+  "keywords": [
+    "js",
+    "java-script",
+    "neuro-city"
+  ],
+  "author": "Alexey Tkachenko",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.2.3"
+  }
+}

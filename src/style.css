@@ -24,4 +24,6 @@ h2 {
 @import './component/component-3/video.css';
 @import './component/component-4/request.http.css';
 @import './component/component-5/request.websocket.css';
-@import './component/component-6/position-element.css';
+@import './component/component-6/position.element.css';
+@import './component/component-7/show.element.css';
+@import'./component/component-8/color.squares.css';

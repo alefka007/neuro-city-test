@@ -1,0 +1,15 @@
+.box-color {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid grey;
+}
+
+.small-box {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    background-color: #000;
+}

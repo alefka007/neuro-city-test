@@ -1,22 +1,8 @@
+// start the server via the 'npm run server' command;
+
 document.getElementById('button').addEventListener('click', buttonHandler);
 
 let isDataExist = false;
-
-// function debounce(f, ms) {
-
-//     let isCooldown = false;
-
-//     return function () {
-//         if (isCooldown) return;
-
-//         f.apply(this, arguments);
-
-//         isCooldown = true;
-
-//         setTimeout(() => isCooldown = false, ms);
-//     };
-
-// };
 
 function buttonHandler() {
     if (isDataExist) {

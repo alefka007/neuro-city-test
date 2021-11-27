@@ -1,0 +1,23 @@
+
+.hide {
+    opacity: 0!important;
+}
+
+.package {
+    display: block;
+    margin: 0 auto;
+    transition: ease-in-out .2s;
+}
+
+.package:hover {
+    filter: brightness(70%);
+}
+
+.package:active {
+    transform: scale(1.1);
+}
+
+.img-container {
+    margin: 0 auto;
+    max-width: 388px;
+}
